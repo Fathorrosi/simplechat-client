@@ -1,0 +1,42 @@
+.card {
+  min-height: 30rem;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.chat {
+  max-width: 600px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.chat-right {
+  text-align: right;
+}
+
+.chat-left {
+  text-align: left;
+}
+
+name {
+  font-size: small;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.message {
+  margin-top: 100px;
+  font-size: medium;
+}
